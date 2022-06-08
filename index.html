@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SalesBlink</title>
+
+    <!--Custom Styling CSS-->
+    <link href="style.css" rel="stylesheet" />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <!--Favicon-->
+    <link
+      rel="shortcut icon"
+      href="img/logo-dark.png"
+      alt="favicon"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg container">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="img/logo-dark.png" />
+        </a>
+        <button
+          class="navbar-toggler btn btn-danger"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >WHY SALESBLINK?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >PRICING</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RESOURCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="btn btn-primary">Sign Up</button>
+
+        <button class="btn btn-outline-primary">Book a Demo</button>
+      </div>
+    </nav>
+    <!--Navbar End-->
+
+    <!--Hero Start-->
+    <section class="hero">
+      <h1>SalesBlink Blog</h1>
+      <p>Sales, Cold Emails and everything in between...</p>
+
+      <ul
+        class="list-unstyled d-flex justify-content-center flex-wrap mt-4 mb-4"
+      >
+        <a href="">
+          <li class="list-inline-item mb-2 h6 date text-muted me-2">
+            Cold Call
+          </li>
+        </a>
+        <a href="">
+          <li class="list-inline-item mb-2 h6 date text-muted me-2">
+            Cold Email
+          </li></a
+        >
+        <a href="">
+          <li class="list-inline-item mb-2 h6 date text-muted me-2">CRM</li>
+        </a>
+        <a href=""
+          ><li class="list-inline-item mb-2 h6 date text-muted me-2">
+            Lead Generation
+          </li></a
+        >
+        <a href="">
+          <li class="list-inline-item mb-2 h6 date text-muted me-2">
+            Linkedin Outreach
+          </li></a
+        >
+        <a href="">
+          <li class="list-inline-item mb-2 h6 date text-muted me-2">Sales</li>
+        </a>
+        <a href="">
+          <li class="list-inline-item mb-2 h6 date text-muted me-2">
+            Sales Tip
+          </li>
+        </a>
+        <a href="">
+          <li class="list-inline-item mb-2 h6 date text-muted me-2">
+            Sales Book Summary
+          </li></a
+        >
+      </ul>
+
+      <form class="d-flex container btn" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+    </section>
+
+    <!--Hero End-->
+
+    <!--Blog List Start-->
+    <section class="blodCardSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 pb-2">
+            <div class="card blog rounded border-0 shadow overflow-hidden">
+              <div class="position-relative">
+                <img
+                  id="blogImg"
+                  loading="lazy"
+                  src="https://salesblink.io/blog/wp-content/uploads/2022/05/15-top-tips-to-send-emails-in-bulk-salesblink.jpeg"
+                  class="card-img-top"
+                  alt=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                  title=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                />
+                <div class="overlay rounded-top bg-dark"></div>
+              </div>
+              <div class="card-body content">
+                <h5>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    class="card-title title text-dark"
+                    id="blogTitle"
+                  >
+                    15 Top Tips To Send Emails In Bulk (+Tools)
+                  </a>
+                </h5>
+                <div class="post-meta d-flex justify-content-between mt-3">
+                  <ul class="list-unstyled mb-0">
+                    <li class="list-inline-item">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-muted comments"
+                        id="blogDate"
+                        ><i class="gg-calendar-dates me-1"></i>
+                        June 1, 2022
+                      </a>
+                    </li>
+                  </ul>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    id="blogLink"
+                    class="text-muted readmore"
+                    >Start Reading
+                    <svg
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#2f55d4"
+                        d="M15.54,11.29,9.88,5.64a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.41l4.95,5L8.46,17a1,1,0,0,0,0,1.41,1,1,0,0,0,.71.3,1,1,0,0,0,.71-.3l5.66-5.65A1,1,0,0,0,15.54,11.29Z"
+                      /></svg
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 pb-2">
+            <div class="card blog rounded border-0 shadow overflow-hidden">
+              <div class="position-relative">
+                <img
+                  id="blogImg"
+                  loading="lazy"
+                  src="https://salesblink.io/blog/wp-content/uploads/2022/04/the-ultimate-sales-cycle-guide-salesblink.jpeg"
+                  class="card-img-top"
+                  alt=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                  title=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                />
+                <div class="overlay rounded-top bg-dark"></div>
+              </div>
+              <div class="card-body content">
+                <h5>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    class="card-title title text-dark"
+                    id="blogTitle"
+                  >
+                    15 Top Tips To Send Emails In Bulk (+Tools)
+                  </a>
+                </h5>
+                <div class="post-meta d-flex justify-content-between mt-3">
+                  <ul class="list-unstyled mb-0">
+                    <li class="list-inline-item">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-muted comments"
+                        id="blogDate"
+                        ><i class="gg-calendar-dates me-1"></i>
+                        June 1, 2022
+                      </a>
+                    </li>
+                  </ul>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    id="blogLink"
+                    class="text-muted readmore"
+                    >Start Reading
+                    <svg
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#2f55d4"
+                        d="M15.54,11.29,9.88,5.64a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.41l4.95,5L8.46,17a1,1,0,0,0,0,1.41,1,1,0,0,0,.71.3,1,1,0,0,0,.71-.3l5.66-5.65A1,1,0,0,0,15.54,11.29Z"
+                      /></svg
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 pb-2">
+            <div class="card blog rounded border-0 shadow overflow-hidden">
+              <div class="position-relative">
+                <img
+                  id="blogImg"
+                  loading="lazy"
+                  src="https://salesblink.io/blog/wp-content/uploads/2022/05/hot-leads-how-to-generate-and-convert-them-effectively-salesblink.jpeg"
+                  class="card-img-top"
+                  alt=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                  title=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                />
+                <div class="overlay rounded-top bg-dark"></div>
+              </div>
+              <div class="card-body content">
+                <h5>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    class="card-title title text-dark"
+                    id="blogTitle"
+                  >
+                    15 Top Tips To Send Emails In Bulk (+Tools)
+                  </a>
+                </h5>
+                <div class="post-meta d-flex justify-content-between mt-3">
+                  <ul class="list-unstyled mb-0">
+                    <li class="list-inline-item">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-muted comments"
+                        id="blogDate"
+                        ><i class="gg-calendar-dates me-1"></i>
+                        June 1, 2022
+                      </a>
+                    </li>
+                  </ul>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    id="blogLink"
+                    class="text-muted readmore"
+                    >Start Reading
+                    <svg
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#2f55d4"
+                        d="M15.54,11.29,9.88,5.64a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.41l4.95,5L8.46,17a1,1,0,0,0,0,1.41,1,1,0,0,0,.71.3,1,1,0,0,0,.71-.3l5.66-5.65A1,1,0,0,0,15.54,11.29Z"
+                      /></svg
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 pb-2">
+            <div class="card blog rounded border-0 shadow overflow-hidden">
+              <div class="position-relative">
+                <img
+                  id="blogImg"
+                  loading="lazy"
+                  src="https://salesblink.io/blog/wp-content/uploads/2022/05/the-ultimate-guide-to-ab-testing-for-cold-emails-salesblink.jpeg"
+                  class="card-img-top"
+                  alt=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                  title=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                />
+                <div class="overlay rounded-top bg-dark"></div>
+              </div>
+              <div class="card-body content">
+                <h5>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    class="card-title title text-dark"
+                    id="blogTitle"
+                  >
+                    15 Top Tips To Send Emails In Bulk (+Tools)
+                  </a>
+                </h5>
+                <div class="post-meta d-flex justify-content-between mt-3">
+                  <ul class="list-unstyled mb-0">
+                    <li class="list-inline-item">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-muted comments"
+                        id="blogDate"
+                        ><i class="gg-calendar-dates me-1"></i>
+                        June 1, 2022
+                      </a>
+                    </li>
+                  </ul>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    id="blogLink"
+                    class="text-muted readmore"
+                    >Start Reading
+                    <svg
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#2f55d4"
+                        d="M15.54,11.29,9.88,5.64a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.41l4.95,5L8.46,17a1,1,0,0,0,0,1.41,1,1,0,0,0,.71.3,1,1,0,0,0,.71-.3l5.66-5.65A1,1,0,0,0,15.54,11.29Z"
+                      /></svg
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 pb-2">
+            <div class="card blog rounded border-0 shadow overflow-hidden">
+              <div class="position-relative">
+                <img
+                  id="blogImg"
+                  loading="lazy"
+                  src="https://salesblink.io/blog/wp-content/uploads/2022/05/outreach-marketing-tips-and-strategies-to-increase-conversions-salesblink.jpeg"
+                  class="card-img-top"
+                  alt=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                  title=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                />
+                <div class="overlay rounded-top bg-dark"></div>
+              </div>
+              <div class="card-body content">
+                <h5>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    class="card-title title text-dark"
+                    id="blogTitle"
+                  >
+                    15 Top Tips To Send Emails In Bulk (+Tools)
+                  </a>
+                </h5>
+                <div class="post-meta d-flex justify-content-between mt-3">
+                  <ul class="list-unstyled mb-0">
+                    <li class="list-inline-item">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-muted comments"
+                        id="blogDate"
+                        ><i class="gg-calendar-dates me-1"></i>
+                        June 1, 2022
+                      </a>
+                    </li>
+                  </ul>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    id="blogLink"
+                    class="text-muted readmore"
+                    >Start Reading
+                    <svg
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#2f55d4"
+                        d="M15.54,11.29,9.88,5.64a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.41l4.95,5L8.46,17a1,1,0,0,0,0,1.41,1,1,0,0,0,.71.3,1,1,0,0,0,.71-.3l5.66-5.65A1,1,0,0,0,15.54,11.29Z"
+                      /></svg
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 pb-2">
+            <div class="card blog rounded border-0 shadow overflow-hidden">
+              <div class="position-relative">
+                <img
+                  id="blogImg"
+                  loading="lazy"
+                  src="https://salesblink.io/blog/wp-content/uploads/2022/05/15-top-tips-to-send-emails-in-bulk-salesblink.jpeg"
+                  class="card-img-top"
+                  alt=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                  title=" 15 Top Tips To Send Emails In Bulk (+Tools)"
+                />
+                <div class="overlay rounded-top bg-dark"></div>
+              </div>
+              <div class="card-body content">
+                <h5>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    class="card-title title text-dark"
+                    id="blogTitle"
+                  >
+                    15 Top Tips To Send Emails In Bulk (+Tools)
+                  </a>
+                </h5>
+                <div class="post-meta d-flex justify-content-between mt-3">
+                  <ul class="list-unstyled mb-0">
+                    <li class="list-inline-item">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-muted comments"
+                        id="blogDate"
+                        ><i class="gg-calendar-dates me-1"></i>
+                        June 1, 2022
+                      </a>
+                    </li>
+                  </ul>
+                  <a
+                    href="../../blog/send-emails-in-bulk"
+                    id="blogLink"
+                    class="text-muted readmore"
+                    >Start Reading
+                    <svg
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#2f55d4"
+                        d="M15.54,11.29,9.88,5.64a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.41l4.95,5L8.46,17a1,1,0,0,0,0,1.41,1,1,0,0,0,.71.3,1,1,0,0,0,.71-.3l5.66-5.65A1,1,0,0,0,15.54,11.29Z"
+                      /></svg
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center m-5">
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+      </div>
+    </section>
+    <!--Blog List End-->
+
+    <!--Footer Start-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2"></div>
+          <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+            <h5>Company</h5>
+            <ul class="list-unstyled footer-list mt-4">
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+            <h5>Solutions</h5>
+            <ul class="list-unstyled footer-list mt-4">
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+            <h5>Comparison</h5>
+            <ul class="list-unstyled footer-list mt-4">
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+              <a href="">
+                <li>Work for us</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Footer End-->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
